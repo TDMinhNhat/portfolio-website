@@ -1,0 +1,58 @@
+{
+    "tab_layout": {
+        "about": "About",
+        "education": "Educations",
+        "work_experience": "Experiences",
+        "personal_project": "Personal Projects"
+    },
+    "about": {
+        "description": "Description",
+        "skills": {
+            "language": "Languages",
+            "front-end": "Front-end",
+            "back-end": "Back-end",
+            "database": "Databases",
+            "testing": "Testing",
+            "ci_cd": "CI/CD",
+            "dockerization": "Dockerization",
+            "system_design": "System Design"
+        }
+    },
+    "education": {
+        "school": {
+            "name": "School Name",
+            "location": "School Location"
+        },
+        "degree": {
+            "name": "Degree",
+            "major": "Major"
+        },
+        "duration": {
+            "start": "Start Date",
+            "end": "End Date"
+        }
+    },
+    "work_experience": {
+        "company_name": "Company Name",
+        "position": "Position",
+        "description": "Description",
+        "duration": {
+            "start": "Start Date",
+            "end": "End Date"
+        }
+    },
+    "personal_project": {
+        "name": "Project Name",
+        "technologies": "Technologies Used",
+        "description": "Description",
+        "team_size": "Team Size",
+        "link": {
+            "github": "GitHub Link",
+            "live": "Live Demo Link"
+        },
+        "duration": {
+            "start": "Start Date",
+            "end": "End Date"
+        }
+    }
+}
