@@ -1,9 +1,9 @@
 {
     "tab_layout": {
-        "about": "About",
-        "education": "Educations",
-        "work_experience": "Experiences",
-        "personal_project": "Personal Projects"
+        "about": "About Me",
+        "education": "Education",
+        "work_experience": "Work Experience",
+        "personal_project": "Personal Project"
     },
     "about": {
         "description": "Description",
@@ -16,11 +16,18 @@
             "ci_cd": "CI/CD",
             "dockerization": "Dockerization",
             "system_design": "System Design"
+        },
+        "social_links": {
+            "name": "Social Links",
+            "github": "GitHub",
+            "linkedIn": "LinkedIn"
         }
     },
     "education": {
+        "title": "Education",
         "school": {
             "name": "School Name",
+            "group": "Group University",
             "location": "School Location"
         },
         "degree": {
@@ -29,13 +36,14 @@
         },
         "duration": {
             "start": "Start Date",
-            "end": "End Date"
+            "end": "End Date",
+            "current": "Current"
         }
     },
     "work_experience": {
         "company_name": "Company Name",
         "position": "Position",
-        "description": "Description",
+        "role_description": "Role Description",
         "duration": {
             "start": "Start Date",
             "end": "End Date"
@@ -54,5 +62,8 @@
             "start": "Start Date",
             "end": "End Date"
         }
+    },
+    "foot_layout": {
+
     }
 }

@@ -1,0 +1,155 @@
+{
+  "about": {
+    "information": {
+      "full_name_east": "Truong Duong Minh Nhat",
+      "full_name_west": "Nhat Truong",
+      "email": "tdminhnhat13092003@gmail.com",
+      "birth_date": "13/09/2003",
+      "location": "Ho Chi Minh City, Vietnam"
+    },
+    "social_links": {
+        "github": "https://github.com/TDMinhNhat",
+        "linkedIn": "https://www.linkedin.com/in/tdminhnhat-developer/"
+    },
+    "description": "",
+    "skills": {
+      "language": ["Java", "HTML/CSS/JavaScript", "TypeScript"],
+      "front-end": ["React.js", "Redux", "Bootstrap", "Tailwind CSS"],
+      "back-end": [
+        "Spring Framework",
+        "RESTful API",
+        "JPA",
+        "JWT",
+        "KeyCloak",
+        "Apache Kafka"
+      ],
+      "database": [
+        "Microsoft SQL Server",
+        "MariaDB",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ],
+      "testing": ["JUnit", "Mockito", "Selenium"],
+      "ci_cd": ["Jenkins", "GitHub Actions"],
+      "dockerization": ["Docker", "Kubernetes"],
+      "system_design": [
+        "SOLID Principle",
+        "Design Patterns",
+        "Microservices",
+        "Multi-layered"
+      ]
+    }
+  },
+  "education": [
+    {
+      "code": "IUH",
+      "school": {
+        "name": "Industrial University of Ho Chi Minh City",
+        "logo": "/images/school/iuh_logo.png",
+        "background": "/images/school/iuh_university_bg.png",
+        "group": null,
+        "location": "Ho Chi Minh City, Vietnam"
+      },
+      "degree": {
+        "name": "Bachelor of Engineering",
+        "major": "Software Engineering"
+      },
+      "duration": {
+        "start": "10/2021",
+        "end": "12/2026"
+      }
+    },
+    {
+      "code": "BKHCM",
+      "school": {
+        "name": "Ho Chi Minh City University of Technology",
+        "logo": "/images/school/bkhcm_logo.png",
+        "background": "/images/school/bkhcm_university_bg.png",
+        "group": "Vietnam National University Ho Chi Minh City",
+        "location": "Ho Chi Minh City, Vietnam"
+      },
+      "degree": {
+        "name": "Master of Engineering",
+        "major": "Computer Science"
+      },
+      "duration": {
+        "start": "01/2027",
+        "end": null
+      }
+    }
+  ],
+  "work_experience": [
+    {
+      "company_name": "TMA Solutions",
+      "position": "Java Backend Developer",
+      "role_description": [
+        "Learned and collaborated professional software developments workflows with an Agile team environment, engaging in analyzing and clarifying functional requirements from clients",
+        "Explored and obtained the overview about e-commerce business logic, system components, and the technologies for developing this product through project documents",
+        "Engaging in team meetings to analyze the complicated business requirements, proposing and explaining the solutions those requirements",
+        "Engineered the RESTful APIs from analyzing the business logic to the services, even researching and fixing bugs are raised from other teams"
+      ],
+      "duration": {
+        "start": "09/2025",
+        "end": "11/2025"
+      }
+    }
+  ],
+  "personal_project": [
+    {
+      "name": "Full-stack Healthcare Application",
+      "technologies": [
+        "Spring Boot",
+        "React.js",
+        "React-Native",
+        "MariaDB",
+        "MongoDB",
+        "Redis",
+        "Apache Kafka",
+        "Microservices Architecture"
+      ],
+      "description": [
+        "Designed the 20+ RESTful APIs across microservices serving front-end application",
+        "Synchronized with the data are rendered real-time between website and mobile platform to ensure there are no contradictions when the users interact some functions on user interface",
+        "Implemented face-detection pipeline real-time using SSD ResNet-10 and OpenFace nn4.small2 for achieving face detection and recognition, the result are 98% accuracy threshold detecting face and 60%+ accuracy for checking similarity.",
+        "Architected a high-performance messaging system using WebSocket & StompJS protocols, bi-directional communicate for over 1,000+ messages daily with sub-100ms response time",
+        "Integrated QR-based payment online via banking Sepay APIs real-time, supporting various of banking type and handling concurrently"
+      ],
+      "team_size": 2,
+      "link": {
+        "github": "https://github.com/TDMinhNhat/solarhealth.git",
+        "live": null
+      },
+      "duration": {
+        "start": "01/2025",
+        "end": "05/2025"
+      }
+    },
+    {
+      "name": "Social Network Application",
+      "technologies": [
+        "Spring Boot",
+        "React.js",
+        "PostgreSQL",
+        "MongoDB",
+        "StompJS",
+        "gRPC",
+        "Microservices Architecture"
+      ],
+      "description": [
+        "Implemented a security infrastructure using Spring Security and Spring OAuth2 with Keycloak, guaranteeing some sensitive user endpoints have to be protected through validating Role-Based Access Control (RBAC)",
+        "Architected high-performance real-time messages using WebSocket & StompJS protocols, serving for over 500 requests daily from sending, calling or notifcation messages with ensuring the response must be in range sub-200ms to sub-1000ms response time",
+        "Implemented the WebRTC technique in frontend for engineering phone or video calls between users gather real-time with the response time in range sub-100ms to sub-2000ms, dependence on user’s network"
+      ],
+      "team_size": 1,
+      "link": {
+        "github": "",
+        "live": null
+      },
+      "duration": {
+        "start": "04/2026",
+        "end": null
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
-export default function PersonalProjectLayout({ language }:{ language: object }) {
+export default function PersonalProjectLayout({ language, data }:{ language: object; data: object }) {
     return (
-        <div>
+        <div id="personal-project">
             Personal Project Layout
         </div>
     )
