@@ -1,69 +1,106 @@
 {
-    "tab_layout": {
-        "about": "About Me",
-        "education": "Education",
-        "work_experience": "Work Experience",
-        "personal_project": "Personal Project"
+  "tab_layout": {
+    "about": "About Me",
+    "education": "Education",
+    "work_experience": "Work Experience",
+    "personal_project": "Personal Project"
+  },
+  "about": {
+    "title": "About Me",
+    "tabs": ["Information", "Skills", "Certificates"],
+    "information": {
+      "full_name": "Full Name",
+      "date_of_birth": "Date of Birth",
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone",
+      "social_links": {
+        "title": "Social Links",
+        "github": "GitHub",
+        "github_click": "Click to visit my GitHub profile",
+        "linkedIn": "LinkedIn",
+        "linkedIn_click": "Click to visit my LinkedIn profile"
+      }
     },
-    "about": {
-        "description": "Description",
-        "skills": {
-            "language": "Languages",
-            "front-end": "Front-end",
-            "back-end": "Back-end",
-            "database": "Databases",
-            "testing": "Testing",
-            "ci_cd": "CI/CD",
-            "dockerization": "Dockerization",
-            "system_design": "System Design"
-        },
-        "social_links": {
-            "name": "Social Links",
-            "github": "GitHub",
-            "linkedIn": "LinkedIn"
-        }
+    "skills": {
+      "languages": {
+        "label": "Programming Languages",
+        "image": "/images/about/skills/languages_group.png"
+      },
+      "frontend": {
+        "label": "Frontend",
+        "image": "/images/about/skills/frontend_group.png"
+      },
+      "backend": {
+        "label": "Backend",
+        "image": "/images/about/skills/backend_group.png"
+      },
+      "databases": {
+        "label": "Databases",
+        "image": "/images/about/skills/databases_group.png"
+      },
+      "security": {
+        "label": "Security",
+        "image": "/images/about/skills/security_group.png"
+      },
+      "testing": {
+        "label": "Testing",
+        "image": "/images/about/skills/testing_group.png"
+      },
+      "devops": {
+        "label": "DevOps",
+        "image": "/images/about/skills/devops_group.png"
+      },
+      "system_design": {
+        "label": "System Design",
+        "image": "/images/about/skills/system-design_group.png"
+      }
     },
-    "education": {
-        "title": "Education",
-        "school": {
-            "name": "School Name",
-            "group": "Group University",
-            "location": "School Location"
-        },
-        "degree": {
-            "name": "Degree",
-            "major": "Major"
-        },
-        "duration": {
-            "start": "Start Date",
-            "end": "End Date",
-            "current": "Current"
-        }
-    },
-    "work_experience": {
-        "company_name": "Company Name",
-        "position": "Position",
-        "role_description": "Role Description",
-        "duration": {
-            "start": "Start Date",
-            "end": "End Date"
-        }
-    },
-    "personal_project": {
-        "name": "Project Name",
-        "technologies": "Technologies Used",
-        "description": "Description",
-        "team_size": "Team Size",
-        "link": {
-            "github": "GitHub Link",
-            "live": "Live Demo Link"
-        },
-        "duration": {
-            "start": "Start Date",
-            "end": "End Date"
-        }
-    },
-    "foot_layout": {
-
+    "certificate": {
+      "categories": ["Language", "Technical", "Other"]
     }
+  },
+  "education": {
+    "title": "Education",
+    "school": {
+      "name": "School Name",
+      "group": "Group University",
+      "location": "School Location"
+    },
+    "degree": {
+      "name": "Degree",
+      "major": "Major"
+    },
+    "duration": {
+      "start": "Start Date",
+      "end": "End Date",
+      "current": "Current"
+    }
+  },
+  "work_experience": {
+    "title": "Work Experience",
+    "company_name": "Company Name",
+    "position": "Position",
+    "role_description": "Role Description",
+    "duration": {
+      "start": "Start Date",
+      "end": "End Date"
+    }
+  },
+  "personal_project": {
+    "category": ["Application", "AI", "Others"],
+    "name": "Project Name",
+    "technologies": "Technologies Used",
+    "description": "Description",
+    "team_size": "Team Size",
+    "link": {
+      "github": "GitHub Link",
+      "live": "Live Demo Link"
+    },
+    "duration": {
+      "start": "Start Date",
+      "end": "End Date"
+    }
+  },
+  "foot_layout": {}
 }

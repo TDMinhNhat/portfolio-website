@@ -1,45 +1,150 @@
 {
+  "welcome": {
+    "subtitle": "Full-stack Developer",
+    "description": "Fresher Java Backend Developer with a strong foundation in software development principles. Proficient in Java, Spring Boot, and RESTful API development, with hands-on experience in front-end technologies such as React.js",
+    "full_name_vn": "Trương Dương Minh Nhật"
+  },
   "about": {
     "information": {
-      "full_name_east": "Truong Duong Minh Nhat",
-      "full_name_west": "Nhat Truong",
+      "full_name": "Truong Duong Minh Nhat",
+      "date_of_birth": "13/09/2003",
+      "location": "Ho Chi Minh City, Vietnam",
       "email": "tdminhnhat13092003@gmail.com",
-      "birth_date": "13/09/2003",
-      "location": "Ho Chi Minh City, Vietnam"
-    },
-    "social_links": {
+      "phone": "Check my CV/Resume",
+      "social_links": {
         "github": "https://github.com/TDMinhNhat",
         "linkedIn": "https://www.linkedin.com/in/tdminhnhat-developer/"
+      }
     },
-    "description": "",
     "skills": {
-      "language": ["Java", "HTML/CSS/JavaScript", "TypeScript"],
-      "front-end": ["React.js", "Redux", "Bootstrap", "Tailwind CSS"],
-      "back-end": [
-        "Spring Framework",
-        "RESTful API",
-        "JPA",
-        "JWT",
-        "KeyCloak",
-        "Apache Kafka"
+      "languages": [
+        {
+          "name": "Java",
+          "image": "/images/about/skills/java_languages.png"
+        },
+        {
+          "name": "JavaScript",
+          "image": "/images/about/skills/javascript_languages.png"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/images/about/skills/typescript_languages.png"
+        }
       ],
-      "database": [
-        "Microsoft SQL Server",
-        "MariaDB",
-        "PostgreSQL",
-        "MongoDB",
-        "Redis"
+      "backend": [
+        {
+          "name": "Spring Framework",
+          "image": "/images/about/skills/spring-framework_backend.svg"
+        },
+        {
+          "name": "RESTful API",
+          "image": "/images/about/skills/restful-api_backend.png"
+        },
+        {
+          "name": "WebSocket",
+          "image": "/images/about/skills/websocket_backend.png"
+        },
+        {
+          "name": "JPA Hibernate",
+          "image": "/images/about/skills/jpa-hibernate_backend.png"
+        }
       ],
-      "testing": ["JUnit", "Mockito", "Selenium"],
-      "ci_cd": ["Jenkins", "GitHub Actions"],
-      "dockerization": ["Docker", "Kubernetes"],
+      "frontend": [
+        {
+          "name": "React.js",
+          "image": "/images/about/skills/reactjs_frontend.png"
+        },
+        {
+          "name": "React-Native",
+          "image": "/images/about/skills/react-native_frontend.png"
+        },
+        {
+          "name": "Redux",
+          "image": "/images/about/skills/redux_frontend.png"
+        },
+        {
+          "name": "Bootstrap",
+          "image": "/images/about/skills/bootstrap_frontend.png"
+        },
+        {
+          "name": "Tailwind CSS",
+          "image": "/images/about/skills/tailwindcss_frontend.png"
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "image": "/images/about/skills/postgresql_databases.png"
+        },
+        {
+          "name": "MongoDB",
+          "image": "/images/about/skills/mongodb_databases.png"
+        },
+        {
+          "name": "Redis",
+          "image": "/images/about/skills/redis_databases.png"
+        }
+      ],
+      "security": [
+        {
+          "name": "Spring Security",
+          "image": "/images/about/skills/spring-security_security.svg"
+        },
+        {
+          "name": "JWT",
+          "image": "/images/about/skills/jwt_security.svg"
+        },
+        {
+          "name": "KeyCloak",
+          "image": "/images/about/skills/keycloak_security.png"
+        }
+      ],
+      "testing": [
+        {
+          "name": "JUnit 5",
+          "image": "/images/about/skills/junit_testing.png"
+        },
+        {
+          "name": "Mockito",
+          "image": "/images/about/skills/mockito_testing.png"
+        }
+      ],
+      "devops": [
+        {
+          "name": "Jenkins",
+          "image": "/images/about/skills/jenkins_devops.png"
+        },
+        {
+          "name": "GitHub Actions",
+          "image": "/images/about/skills/github-actions_devops.png"
+        },
+        {
+          "name": "Docker",
+          "image": "/images/about/skills/docker_devops.png"
+        },
+        {
+          "name": "Kubernetes",
+          "image": "/images/about/skills/kubernetes_devops.png"
+        }
+      ],
       "system_design": [
-        "SOLID Principle",
-        "Design Patterns",
-        "Microservices",
-        "Multi-layered"
+        {
+          "name": "SOLID Principles",
+          "image": ""
+        },
+        {
+          "name": "Design Patterns",
+          "image": ""
+        },
+        {
+          "name": "Microservices",
+          "image": ""
+        }
       ]
-    }
+    },
+    "certificate": [
+      
+    ]
   },
   "education": [
     {

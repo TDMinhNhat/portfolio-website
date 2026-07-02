@@ -10,25 +10,22 @@ export default function EducationLayout({
 }) {
   return (
     <div
-      id="education"
-      className="w-full flex flex-col justify-center items-center bg-blue-50"
+      className="w-full h-screen flex flex-col justify-center items-center bg-blue-50 gap-10"
     >
-      <div>
-        <h1>{language.title}</h1>
-      </div>
-      <div className="w-5/6 flex flex-col justify-center items-center">
+      <h1 className="text-3xl font-bold text-center">{language.title}</h1>
+      <div className="w-3/5 flex flex-col justify-center items-center">
         {
           data.map((item, index) => {
             return (
               <div key={index} className="w-full m-4 p-4 flex flex-row justify-between items-center border border-gray-300 rounded-lg shadow-md">
-                <div className="flex-1 flex flex-col items-center">
+                <div className="flex-1 flex flex-col items-center gap-8">
                   <img
                     src={item.school.logo}
                     alt={item.school.name}
                     className="h-24 object-contain"
                   />
 
-                  <div className="w-full flex flex-col items-start">
+                  <div className="w-full flex flex-col items-center">
                     <h2 className="text-xl font-bold">{item.school.name} - {item.code}</h2>
                     <h3 className="text-md font-semibold">{item.degree.major} - {item.degree.name}</h3>
                     <p className="text-sm">{item.duration.start} - {item.duration.end && item.duration.end !== "Current" ? item.duration.end : language.duration.current}</p>

@@ -1,16 +1,16 @@
 import React, { useEffect, useRef } from "react";
+import useTheme from "~/hooks/useTheme";
 
 export default function TabLayout({
   language,
-  changeLanguage,
-  theme,
-  changeTheme,
+  changeLanguage
 }: {
   language: object;
-  changeLanguage: (lang: string) => void;
-  theme: string;
-  changeTheme: (theme: string) => void;
+  changeLanguage: (lang: string) => void
 }) {
+
+  // Hooks
+  const { theme, currentTheme, changeTheme } = useTheme();
 
   // Reference
   const tabChangeLanguageRef = useRef<HTMLUListElement>(null);

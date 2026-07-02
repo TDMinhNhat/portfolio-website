@@ -9,6 +9,7 @@ import FootLayout from "~/layouts/FootLayout";
 import useDataLanguage from "~/hooks/useDataLanguage";
 import { useRef } from "react";
 import useTheme from "~/hooks/useTheme";
+import WelcomeLayout from "~/layouts/WelcomeLayout";
 
 // export function meta({}: Route.MetaArgs) {
 //   return [
@@ -19,7 +20,6 @@ import useTheme from "~/hooks/useTheme";
 
 export default function Home() {
 
-  const { theme, currentTheme, changeTheme } = useTheme();
   const { language, changeLanguage } = useLanguage();
   const { dataLanguage } = useDataLanguage();
 
@@ -29,13 +29,34 @@ export default function Home() {
     <div className="relative size-full scroll-smooth">
       <div className="static bg-blue-50 size-full top-0 bottom-0 flex flex-col items-center">
         {/* Tab Header of website */}
-        <div ref={tabHeadRef} className="w-full bg-red-50">
-          <TabLayout language={language.tab_layout} changeLanguage={changeLanguage} theme={theme} changeTheme={changeTheme} />
+        <div ref={tabHeadRef} className="w-full sticky left-0 top-0 right-0 bg-white z-10 shadow-lg">
+          <TabLayout language={language.tab_layout} changeLanguage={changeLanguage} />
         </div>
 
+        {/* Welcome Layout */}
+        <div className="size-full">
+          <WelcomeLayout data={dataLanguage.welcome} />
+        </div>
+
+        <div id="about" className="mt-20 mb-20"/>
+
+        {/* About Layout */}
+        <div className="size-full">
+          <AboutLayout language={language.about} data={dataLanguage.about} />
+        </div>
+
+        <div id="education" className="mt-20 mb-20"/>
+
         {/* Education Layout */}
-        <div className="w-full">
+        <div className="size-full">
           <EducationLayout language={language.education} data={dataLanguage.education} />
+        </div>
+
+        <div id="work-experience" className="mt-20 mb-20"/>
+
+        {/* Work Experience Layout */}
+        <div className="size-full">
+          <WorkExperienceLayout language={language.work_experience} data={dataLanguage.work_experience} />
         </div>
       </div>
     </div>
