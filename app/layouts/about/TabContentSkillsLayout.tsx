@@ -16,7 +16,7 @@ export default function TabContentSkillsLayout({
   ): JSX.Element {
     return (
       <div
-        className={`w-full h-[484px] p-5 flex flex-col items-center gap-10 rounded-xl hover:shadow-xl transition-shadow duration-300`}
+        className={`w-full h-121 p-5 flex flex-col items-center gap-10 rounded-xl hover:shadow-xl transition-shadow duration-300`}
         style={{
           background: backgroundGradient
         }}
@@ -45,7 +45,7 @@ export default function TabContentSkillsLayout({
   }
 
   return (
-    <div className="w-5/6 grid grid-cols-4 gap-10">
+    <div className="w-5/6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10">
       {/* Languages */}
       {renderSkillSection("linear-gradient(180deg, #FFA0A0 0%,rgba(243, 113, 255, 1) 100%)", language.languages, data.languages)}
 
@@ -68,7 +68,6 @@ export default function TabContentSkillsLayout({
       {renderSkillSection("linear-gradient(180deg, #FFDFB0 0%, #FFCE61 100%)", language.devops, data.devops)}
 
       {/* System Design */}
-      <div className=""></div>
     </div>
   );
 }
