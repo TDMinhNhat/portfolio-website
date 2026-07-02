@@ -11,12 +11,12 @@ import { useEffect, useRef } from "react";
 import useTheme from "~/hooks/useTheme";
 import WelcomeLayout from "~/layouts/WelcomeLayout";
 
-// export function meta({}: Route.MetaArgs) {
-//   return [
-//     { title: "New React Router App" },
-//     { name: "description", content: "Welcome to React Router!" },
-//   ];
-// }
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Nhat's Portfolio Website" },
+    { name: "description", content: "Welcome to React Router!" },
+  ];
+}
 
 export default function Home() {
 
