@@ -27,7 +27,7 @@ export default function TabLayout({
   }
 
   return (
-    <div className="w-full flex flex-row justify-around items-center">
+    <div className="w-full h-full flex flex-row justify-around items-center">
       {/* Left - Logo and Name */}
       <div
         className="flex flex-row items-center"
@@ -48,28 +48,28 @@ export default function TabLayout({
       </div>
 
       {/* Middle - Navigation Tab */}
-      <div className="w-1/2 flex flex-row justify-between">
+      <div className="w-1/2 flex flex-row">
         <a
           href="#about"
-          className="flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
+          className="h-full flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
         >
           {language.about}
         </a>
         <a
           href="#education"
-          className="flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
+          className="h-full flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
         >
           {language.education}
         </a>
         <a
           href="#work-experience"
-          className="flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
+          className="h-full flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
         >
           {language.work_experience}
         </a>
         <a
           href="#personal-project"
-          className="flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
+          className="h-full flex-1 p-4 text-center cursor-pointer hover:bg-red-200"
         >
           {language.personal_project}
         </a>
