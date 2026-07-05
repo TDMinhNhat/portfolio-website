@@ -57,6 +57,8 @@ export default function Home() {
           <WorkExperienceLayout language={language.work_experience} data={dataLanguage.work_experience} />
         </div>
 
+        <div id="personal-project" className="mt-20 mb-20"/>
+
         {/* Personal Project Layout */}
         <div className="size-full">
           <PersonalProjectLayout language={language.personal_project} data={dataLanguage.personal_project} />

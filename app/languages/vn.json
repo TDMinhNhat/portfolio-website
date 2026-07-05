@@ -89,7 +89,7 @@
   },
   "personal_project": {
     "category": ["Application", "AI", "Others"],
-    "name": "Project Name",
+    "title": "Personal Project",
     "technologies": "Technologies Used",
     "description": "Description",
     "team_size": "Team Size",
@@ -101,6 +101,5 @@
       "start": "Start Date",
       "end": "End Date"
     }
-  },
-  "foot_layout": {}
+  }
 }

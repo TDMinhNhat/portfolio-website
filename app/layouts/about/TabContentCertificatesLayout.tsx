@@ -10,7 +10,7 @@ export default function TabContentCertificatesLayout() {
     
     return (
         <div className="">
-            Tab Content Certificates Layout
+            Sẽ Sớm Có - Comming Soon
         </div>
     )
 }

@@ -187,7 +187,9 @@
   "work_experience": [
     {
       "company_name": "TMA Solutions",
-      "position": "Java Backend Developer",
+      "position": "Java Backend Developer (Intern)",
+      "icon": "/images/work_experience/tma-solutions_logo.png",
+      "background": "/images/work_experience/tma-solutions_bg.png",
       "role_description": [
         "Learned and collaborated professional software developments workflows with an Agile team environment, engaging in analyzing and clarifying functional requirements from clients",
         "Explored and obtained the overview about e-commerce business logic, system components, and the technologies for developing this product through project documents",
@@ -196,13 +198,15 @@
       ],
       "duration": {
         "start": "09/2025",
-        "end": "11/2025"
+        "end": "11/2025",
+        "present": "Present"
       }
     }
   ],
   "personal_project": [
     {
       "name": "Full-stack Healthcare Application",
+      "icon": "/images/personal_project/solarhealth_logo.png", 
       "technologies": [
         "Spring Boot",
         "React.js",
@@ -232,6 +236,7 @@
     },
     {
       "name": "Social Network Application",
+      "icon": "/images/personal_project/social-network_logo.png",
       "technologies": [
         "Spring Boot",
         "React.js",
